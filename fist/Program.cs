@@ -16,7 +16,6 @@ int ForArray(int number)
     if (number < 999 && number > 99)
     {
         int number2 = number / 10 % 10;
-
         Console.WriteLine(number2);
         return number2;
     }
@@ -24,8 +23,8 @@ int ForArray(int number)
     else
     {
         Console.WriteLine("Вы ввели не трехзначное число");
-        int anothe = Convert.ToInt32(Console.ReadLine());
-        number = anothe;
+        // int anothe = Convert.ToInt32(Console.ReadLine());
+        // number = anothe;
         return number;
     }
     
