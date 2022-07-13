@@ -23,8 +23,6 @@ int ForArray(int number)
     else
     {
         Console.WriteLine("Вы ввели не трехзначное число");
-        // int anothe = Convert.ToInt32(Console.ReadLine());
-        // number = anothe;
         return number;
     }
     
