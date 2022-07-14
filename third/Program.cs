@@ -14,27 +14,27 @@ string dayWeek (string day)
 {
     if (day == "1")
     {
-        Console.WriteLine("Понедельник");
+        Console.WriteLine("Понедельник - не выходной");
         return day;
     }
     if (day == "2")
     {
-        Console.WriteLine("Вторник");
+        Console.WriteLine("Вторник - не выходной");
         return day;
     }
     if (day == "3")
     {
-        Console.WriteLine("Среда");
+        Console.WriteLine("Среда - не выходной");
         return day;
     }
     if (day == "4")
     {
-        Console.WriteLine("Четверг");
+        Console.WriteLine("Четверг - не выходной");
         return day;
     }
     if (day == "5")
     {
-        Console.WriteLine("Пятница");
+        Console.WriteLine("Пятница - не выходной");
         return day;
     }
     if (day == "6")
